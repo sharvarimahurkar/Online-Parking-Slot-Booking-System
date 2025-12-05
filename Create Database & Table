@@ -1,0 +1,10 @@
+CREATE DATABASE parkingdb;
+
+USE parkingdb;
+
+CREATE TABLE parking_slots (
+    slot_id INT PRIMARY KEY AUTO_INCREMENT,
+    slot_number VARCHAR(20),
+    is_booked BOOLEAN DEFAULT FALSE,
+    booked_by VARCHAR(50)
+);
