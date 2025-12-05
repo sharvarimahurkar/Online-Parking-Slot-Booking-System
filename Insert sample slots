@@ -1,0 +1,5 @@
+INSERT INTO parking_slots(slot_number, is_booked) VALUES
+('P1', FALSE),
+('P2', FALSE),
+('P3', FALSE),
+('P4', FALSE);
